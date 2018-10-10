@@ -21,3 +21,8 @@ function appendKitten(name){
   var array = [...kittens,name]
   return array
 }
+
+function appendKitten(name){
+  var array = [name,...kittens]
+  return array
+}
